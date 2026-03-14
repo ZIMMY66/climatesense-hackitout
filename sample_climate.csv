@@ -1,0 +1,6 @@
+country,year,temperature,precipitation,wind_speed,latitude,longitude
+India,2000,24,120,8,28.6,77.2
+India,2005,25,150,9,28.6,77.2
+India,2010,26,160,10,28.6,77.2
+USA,2000,18,90,6,40.7,-74
+USA,2005,19,110,7,40.7,-74

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ClimaSense</title>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>ClimaSense Climate Dashboard</h1>
+
+<input type="file" id="fileInput">
+
+<br><br>
+
+<button onclick="upload()">Upload Dataset</button>
+
+<br><br>
+
+<button onclick="loadData()">Show Temperature Chart</button>
+
+<br><br>
+
+<button onclick="detect()">Run AI Anomaly Detection</button>
+
+<br><br>
+
+<canvas id="chart"></canvas>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
